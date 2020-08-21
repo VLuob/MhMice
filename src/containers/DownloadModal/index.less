@@ -1,0 +1,211 @@
+.ant-modal-footer {
+    border: none !important;
+}
+
+.ant-modal-body {
+    padding: 0 !important;
+}
+
+.down_icon {
+    cursor: pointer;
+
+    img {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+.down_model {
+    width: 100%;
+
+    .down_head {
+        height: 56px;
+        width: 100%;
+        font: 18px/56px '';
+        color: #000;
+        padding-left: 20px;
+    }
+
+    .down_body {
+        padding: 0 23px;
+        margin-top: 20px;
+
+        .down_task {
+            display: flex;
+            margin-bottom: 25px;
+
+            .task_name {
+                font: 13px '';
+                color: #3a3a3a;
+                margin-right: 20px;
+
+                span {
+                    color: orange;
+                    margin-right: 3px;
+                }
+            }
+
+            .task_ipt {
+                width: 585px;
+                height: 30px;
+                border: 1px solid #aaa;
+                outline: none;
+                font: 13px '';
+                color: #888;
+                padding-left: 10px;
+            }
+
+            .down_tab {
+                width: 83%;
+
+                .tab_head {
+                    display: flex;
+                    height: 35px;
+                    border-bottom: 1px solid #eee;
+                    cursor: pointer;
+                    position: relative;
+                    justify-content: space-between;
+
+                    .tab_numtip {
+                        position: absolute;
+                        right: -25px;
+                    }
+
+                    >* {
+                        color: #666;
+                        height: 35px;
+                        font: 13px/35px '';
+                    }
+
+
+
+
+                }
+
+                .active_head {
+                    color: #222;
+                    border-bottom: 2px solid orange;
+
+                }
+
+                .tab_body {
+                    margin-top: 10px;
+
+                    .checkbox {
+                        width: 145px;
+                        margin: 3px 0px;
+                    }
+
+                    .tab_rember {
+                        display: flex;
+                        height: 30px;
+
+
+                        .rember_btn {
+                            display: flex;
+
+                            input {
+                                height: 25px;
+                                width: 150px;
+                                border-radius: 5px;
+                                outline: none;
+                                border: 1px solid #aaa;
+                                padding-left: 10px;
+                                font: 14px/25px '';
+                            }
+
+                            button {
+                                height: 25px;
+                                width: 50px;
+                                background: orange;
+                                color: #fff;
+                                outline: none;
+                                border: none;
+                                font: 14px/25px '';
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .task_email {
+                display: flex;
+
+                .email_ipt {
+                    width: 475px;
+                    outline: none;
+                    margin-left: 20px;
+                    border: 1px solid #aaa;
+                }
+            }
+
+        }
+
+        .down_btn {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 20px;
+
+            button {
+                outline: none;
+                background: #fff;
+                border: 1px solid #eee;
+                font: 14px '';
+                color: #333;
+                border-radius: 4px;
+                height: 35px;
+                width: 80px;
+
+                &:nth-child(2) {
+                    margin-left: 20px;
+                    background: orange;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+.sort_label {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 0 10px;
+    align-items: center;
+    position: relative;
+
+    .sort_drag {
+        cursor: move;
+    }
+
+    &:hover .sort_del {
+        font-size: 18px;
+        display: block;
+        cursor: pointer;
+    }
+
+    .sort_del {
+        position: absolute;
+        right: -5px;
+        top: -9px;
+        display: none;
+    }
+
+    .sort_ipt {
+        border: none;
+        background: none;
+        outline: none;
+        margin-left: 10px;
+        width: 91px;
+    }
+}
+
+.sort_ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

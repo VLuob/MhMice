@@ -1,0 +1,172 @@
+.addchart_body {
+    height: 589px;
+
+    .addchart_head {
+        height       : 56px;
+        width        : 100%;
+        border-bottom: 1px solid #eee;
+
+        .addchart_head_creat {
+            font       : 18px/56px '';
+            color      : #333;
+            margin-left: 20px;
+        }
+    }
+
+    .addchart_main {
+        display      : flex;
+        border-bottom: 1px solid #eee;
+
+        height: 80%;
+
+        .main_left {
+            width         : 35%;
+            height        : 100%;
+            display       : flex;
+            flex-direction: column;
+            box-sizing    : border-box;
+            padding       : 0 20px;
+
+            .left_menu {
+                display       : flex;
+                flex-direction: column;
+                margin        : 5px 0;
+
+                .menu_text {
+                    font  : 13px '';
+                    color : #333;
+                    margin: 10px 0;
+                }
+
+                .menu_ipt {
+                    width        : 100%;
+                    height       : 35px;
+                    border       : 1px solid #eee;
+                    outline      : none;
+                    border-radius: 4px;
+                    padding-left : 15px;
+                    box-sizing   : border-box;
+                    font         : 13px '';
+                    color        : #333;
+                }
+            }
+
+            .menu_checkbox {
+                margin: 13px 0;
+            }
+
+            .menu_mediatype {
+                border-bottom : 1px solid #eee;
+                padding-bottom: 10px;
+
+                .mediatype_txt {
+                    font         : 13px '';
+                    color        : #333;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .menu_check {
+                width          : 100%;
+                display        : flex;
+                height         : 60px;
+                align-items    : center;
+                justify-content: space-between;
+            }
+
+            .ant-select-selection {
+                background: red
+            }
+
+            .ant-checkbox-group {
+                label {
+                    width : 60px;
+                    margin: 5px 0;
+
+                }
+            }
+        }
+
+        .main_right {
+            width     : 65%;
+            height    : 100%;
+            background: #eee;
+            padding   : 10px 20px 30px;
+
+            .head_right {
+                display        : flex;
+                align-items    : center;
+                justify-content: space-between;
+                margin         : 10px 0;
+
+                .right_sel {
+                    display: flex;
+
+                    .sel_box {
+                        height         : 30px;
+                        width          : 30px;
+                        border-radius  : 4px;
+                        display        : flex;
+                        align-items    : center;
+                        justify-content: center;
+
+                        img {
+                            height: 25px;
+                            width : 25px;
+                        }
+                    }
+
+                    .sel_active {
+                        background: orange;
+                    }
+                }
+            }
+
+            .right_chartbox {
+                width        : 100%;
+                height       : 87%;
+                background   : #fff;
+                margin-top   : 20px;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .addchart_btn {
+        height         : 65px;
+        width          : 100%;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+
+        button {
+            height       : 35px;
+            width        : 80px;
+            background   : #fff;
+            color        : #bbb;
+            border       : 1px solid #eee;
+            font         : 14px '';
+            outline      : none;
+            border-radius: 4px;
+
+            &:last-child {
+                margin-left: 20px;
+                background : orange;
+                color      : #fff;
+            }
+        }
+
+    }
+}
+
+.ant-modal-footer {
+    padding: 0 !important;
+}
+
+.addchart {
+    width     : 100px;
+    height    : 30px;
+    position  : absolute;
+    opacity   : 0;
+    background: red
+}

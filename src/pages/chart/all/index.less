@@ -1,0 +1,85 @@
+.chart_head {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+
+    .chart_title {
+        font : 18px '';
+        color: #333;
+    }
+
+    .chart_fun {
+        display    : flex;
+        align-items: center;
+
+        .fun_look {
+            height       : 38px;
+            width        : 121px;
+            background   : #FFFFFF;
+            box-shadow   : 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+            border-radius: 100px;
+            font         : 12px/38px '';
+            text-align   : center;
+            color        : #707070;
+        }
+    }
+}
+
+.chart_show {
+    height         : 104px;
+    background     : #FFFFFF;
+    border-radius  : 6px;
+    width          : 100%;
+    margin         : 27px 0;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+
+    .show_tab {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
+        .show_num {
+            font       : 36px '';
+            font-family: Avenir-Roman;
+        }
+
+        &:nth-child(1) {
+            color   : #1FB6FF;
+            position: relative;
+
+            &::before {
+                content   : '';
+                position  : absolute;
+                display   : block;
+                height    : 60px;
+                width     : 1px;
+                background: #eee;
+                right     : -25px;
+                top       : 5px;
+            }
+        }
+
+        &:nth-child(2) {
+            color   : #FEBD01;
+            position: relative;
+
+            &::before {
+                content   : '';
+                position  : absolute;
+                display   : block;
+                height    : 60px;
+                width     : 1px;
+                background: #eee;
+                right     : -25px;
+                top       : 5px;
+            }
+        }
+
+        .show_txt {
+            font : 12px '';
+            color: #808080;
+        }
+    }
+}

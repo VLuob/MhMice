@@ -1,0 +1,118 @@
+.news_newslist {
+    display: flex;
+
+    height: 100%;
+
+    .img {
+        height: 20px;
+        width : 20px;
+        margin: 0 20px;
+    }
+
+    .nav_tab {
+        display       : flex;
+        flex-direction: column;
+        width         : 270px;
+        background    : #FFFFFF;
+        box-shadow    : 0 10px 50px 0 rgba(0, 0, 0, 0.06);
+
+        .anticon-setting {
+            display: none;
+        }
+
+        .nav_title {
+            display      : flex;
+            align-items  : center;
+            height       : 80px;
+            border-bottom: 1px solid #eee;
+
+            .title_txt {
+                font : 600 16px '';
+                color: #333;
+            }
+        }
+
+        .tab_childs {
+
+            >* {
+                display    : flex;
+                align-items: center;
+                height     : 80px;
+                font       : 16px '';
+                position   : relative;
+                width      : 270px;
+                color      : #707070;
+            }
+
+            .article_active {
+                background : #eee;
+                border-left: 2px solid #333;
+
+            }
+
+            .tab_childs_icon {
+                position: absolute;
+                right   : 20px;
+            }
+
+            .under {
+                transition: 0.3s;
+                transform : rotate(-90deg)
+            }
+
+            .top {
+                transition: 0.3s;
+                transform : rotate(0deg)
+            }
+        }
+
+
+        >* {
+            color: #333;
+        }
+    }
+}
+
+.folder {
+    text-align: center;
+}
+
+.article_main {
+    padding   : 15px 30px;
+    width     : 100%;
+    box-sizing: border-box;
+
+    header {
+        display        : flex;
+        justify-content: space-between;
+        margin         : 10px 0;
+        align-items    : center;
+
+        .article_left {
+            display: flex;
+
+            .article_head_title {
+                font        : 600 18px '';
+                color       : #000;
+                margin-right: 10px;
+            }
+        }
+
+        .article_right {
+            display        : flex;
+            align-items    : center;
+            width          : 440px;
+            justify-content: space-between;
+
+            .article_head_title {
+                font        : 600 18px '';
+                color       : #000;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.ant-select-dropdown {
+    width: 100px !important;
+}

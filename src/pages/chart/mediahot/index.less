@@ -1,0 +1,57 @@
+.newstrends_chart_view {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+
+    .view_chart {
+        width : 48%;
+        height: 100%;
+    }
+
+    .view_line {
+        height    : 282px;
+        width     : 1px;
+        background: #eee;
+    }
+
+
+    .view_txt_media {
+        display        : flex;
+        flex-direction : column;
+        width          : 438px;
+        margin-left    : 20px;
+        justify-content: center;
+        height         : 100%;
+
+        .txt_thead {
+            display      : flex;
+            width        : 100%;
+            border-bottom: 1px solid #eee;
+
+            span {
+                font  : 12px/30px '';
+                color : #707070;
+                height: 30px;
+
+                &:first-child {
+                    width: 60%
+                }
+
+                &:nth-child(2) {
+                    width: 20%;
+                }
+
+                &:nth-child(3) {
+                    width     : 20%;
+                    text-align: center;
+                }
+            }
+        }
+
+        .txt_body {
+            height  : 66%;
+            width   : 100%;
+            overflow: auto;
+        }
+    }
+}

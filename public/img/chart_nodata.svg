@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="120px" viewBox="0 0 170 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>统计@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M98.2939146,3.70812673 C97.9028271,3.31816656 97.9019131,2.68500224 98.2918733,2.29391464 C98.6818335,1.90282705 99.3149978,1.9019131 99.7060854,2.29187328 L105.451817,8.02104094 C105.842904,8.41100111 105.843818,9.04416543 105.453858,9.43525302 C105.063898,9.82634062 104.430733,9.82725457 104.039646,9.43729439 L98.2939146,3.70812673 Z" id="Path-5" fill="#888888" fill-rule="nonzero"></path>
+        <path d="M99.6605598,9.11143202 C99.245913,9.47624218 98.6140383,9.43584156 98.2492281,9.02119473 C97.884418,8.60654789 97.9248186,7.97467316 98.3394654,7.609863 L104.432416,2.24922811 C104.847063,1.88441796 105.478938,1.92481857 105.843748,2.33946541 C106.208558,2.75411225 106.168157,3.38598698 105.753511,3.75079713 L99.6605598,9.11143202 Z" id="Path-5-Copy-2" fill="#888888" fill-rule="nonzero"></path>
+        <ellipse id="Oval-5" fill="#DDDDDD" cx="85.5" cy="114.5" rx="47.5" ry="3.5"></ellipse>
+        <ellipse id="Oval-7" stroke="#888888" stroke-width="2" opacity="0.4" cx="164.25" cy="57.2377482" rx="3.25" ry="3.23774824"></ellipse>
+        <ellipse id="Oval-7-Copy-2" stroke="#888888" stroke-width="2" opacity="0.4" cx="45.4" cy="21.3901986" rx="2.4" ry="2.39019859"></ellipse>
+        <path d="M2.53280146,74.5347043 L8.27853272,80.263872" id="Path-5" stroke="#888888" stroke-width="2" stroke-linecap="round" transform="translate(5.405667, 77.399288) rotate(12.000000) translate(-5.405667, -77.399288) "></path>
+        <path d="M2.49069654,79.9354614 L8.58364731,74.5748265" id="Path-5-Copy-2" stroke="#888888" stroke-width="2" stroke-linecap="round" transform="translate(5.537172, 77.255144) rotate(12.000000) translate(-5.537172, -77.255144) "></path>
+        <rect id="Rectangle-17" fill="#C3C3C3" x="49" y="75" width="8" height="20"></rect>
+        <rect id="Rectangle-17-Copy" fill="#C3C3C3" x="71" y="49" width="8" height="46"></rect>
+        <rect id="Rectangle-17-Copy-2" fill="#C3C3C3" x="95" y="57" width="8" height="38"></rect>
+        <rect id="Rectangle-17-Copy-3" fill="#C3C3C3" x="118" y="25" width="8" height="70"></rect>
+        <path d="M44,89.4306266 C49.4356973,77.1753382 55.1870764,71.047694 61.2541373,71.047694 C70.3547286,71.047694 72.1582076,75.4396734 79.5549165,75.4396734 C86.9516254,75.4396734 90.6015964,72.2352441 94.914125,62.7153133 C99.2266536,53.1953825 99.2266536,47.4320577 110.4907,41.7189641 C118.000064,37.910235 122.646307,36.0039136 124.429427,36" id="Path-6" stroke="#888888" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+</svg>

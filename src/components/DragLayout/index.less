@@ -1,0 +1,38 @@
+.react-grid-item {
+    padding   : 10px;
+    background: #fff;
+
+    &:hover {
+        box-shadow: 0 0 12px #aaa;
+    }
+}
+
+.react-grid-item:hover .remove {
+    display: block;
+    z-index: 999999
+}
+
+.react-grid-item:hover .react-resizable-handle::after {
+    visibility: visible;
+}
+
+.remove {
+    position : absolute;
+    right    : 10px;
+    top      : 5px;
+    cursor   : pointer;
+    z-index  : 999;
+    display  : none;
+    font-size: 20px;
+    color    : #333;
+
+    .child {
+        margin: 0 15px;
+    }
+}
+
+.react-grid-item>.react-resizable-handle::after {
+    visibility: hidden;
+    width     : 10px !important;
+    height    : 10px !important;
+}

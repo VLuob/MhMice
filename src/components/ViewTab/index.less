@@ -1,0 +1,59 @@
+.view_template {
+    background     : #333333;
+    border-radius  : 2px;
+    box-shadow     : 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    position       : absolute;
+    left           : -80px;
+    top            : 0;
+    bottom         : 0;
+    right          : 0;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    width          : 140px;
+    padding        : 5px 10px;
+    height         : 80px;
+    color          : #fff;
+    font           : 13px '';
+
+    .view_sel_box {
+        width          : 100%;
+        margin-top     : 5px;
+        display        : flex;
+        align-items    : center;
+        justify-content: space-between;
+
+   
+
+        .sel_box_list {
+            height         : 35px;
+            width          : 35px;
+            background     : #cdcdcd;
+            display        : flex;
+            align-items    : center;
+            justify-content: center;
+            border-radius  : 2px;
+
+
+            .sel_box_list_img {
+                height: 25px;
+                width : 25px;
+            }
+        }
+        .active {
+            background: orange;
+        }
+    }
+}
+
+.view_txt {
+    width          : 80px;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+
+    .view_img {
+        height: 15px;
+        width : 15px;
+    }
+}

@@ -1,0 +1,117 @@
+.swiper {
+
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+
+    .set {
+        display: flex;
+        color: #333;
+        align-items: center;
+        margin: 20px 0;
+        width: 100%;
+        justify-content: space-between;
+
+        .set_left {
+            display: flex;
+            align-items: center;
+            width: 252px;
+            justify-content: space-between;
+
+            div {
+                font: 14px '';
+            }
+
+            .bestnew {
+                font: 600 20px '';
+            }
+        }
+
+        .set_right {
+            display: flex;
+            align-items: center;
+            width: 80px;
+            justify-content: space-between;
+
+            div {
+                font: 14px '';
+            }
+        }
+    }
+
+
+
+    .cardlist {
+        display: flex;
+        justify-content: space-between;
+
+        .card:hover .fun {
+            display: block;
+        }
+
+        .card:hover .info {
+            visibility: hidden;
+        }
+
+        .card {
+            height: 365px;
+            width: 260px;
+            border-radius: 8px;
+            background: #fff;
+            position: relative;
+
+            &:hover {
+                box-shadow: 0 0 18px #aaa;
+            }
+
+            img {
+                height: 130px;
+                width: 100%;
+            }
+
+
+
+            .con {
+                padding: 15px;
+                box-sizing: border-box;
+
+                h3 {
+                    font: 16px/26px '';
+                    color: #333;
+                    height: 52px;
+                }
+
+                .text {
+                    font: 12px/22px '';
+                    color: #707070;
+                }
+
+
+            }
+
+            .info {
+                width: 100%;
+                display: flex;
+                padding: 0 15px;
+                justify-content: space-between;
+                position: absolute;
+                bottom: 10px;
+            }
+
+            .fun {
+                width: 100%;
+                position: absolute;
+                bottom: 10px;
+                display: none;
+                text-align: center;
+
+                >* {
+                    margin: 0 10px;
+                }
+            }
+        }
+
+    }
+
+
+}

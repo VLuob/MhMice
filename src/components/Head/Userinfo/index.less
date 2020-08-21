@@ -1,0 +1,29 @@
+.user {
+    width   : 240px;
+    height  : auto;
+    padding : 0;
+    position: relative;
+
+    .name {
+        height       : 60px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .tab {
+        overflow: hidden;
+
+        li {
+            height      : 40px;
+            display     : flex;
+            align-items : center;
+            padding-left: 10px;
+            box-sizing  : border-box;
+            color       : #333;
+
+            &:hover {
+                background: orange;
+                color     : #fff
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.confirm_model {
+    height  : 200px;
+    padding : 0 25px;
+    position: relative;
+
+    .aconfirm_head {
+        height: 56px;
+        font  : 18px/56px '';
+        color : red;
+    }
+
+    .confirm_tip {
+        margin: 35px 0;
+        font  : 14px '';
+        color : #333;
+    }
+
+    .confirm_btn {
+        margin-top: 10px;
+        position  : absolute;
+        right     : 46px;
+
+        >* {
+            height    : 30px;
+            width     : 60px;
+            outline   : none;
+            background: #fff;
+            border    : 1px solid #eee;
+            color     : #333;
+            font      : 14px '';
+            cursor    : pointer;
+
+            &:nth-child(2) {
+                margin-left: 20px;
+                background : orange;
+                color      : #fff;
+            }
+        }
+    }
+
+}

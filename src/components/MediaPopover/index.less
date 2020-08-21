@@ -1,0 +1,58 @@
+.Media_template {
+    width          : 400px;
+    padding        : 20px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    z-index        : 11111;
+
+    .media_info {
+        >* {
+            margin: 20px 0;
+        }
+
+        span {
+            margin-left: 15px;
+        }
+
+        .info_flex {
+            display : flex;
+            position: relative;
+
+            .third {
+                position: absolute;
+                left    : 200px;
+            }
+        }
+    }
+
+    .media_line {
+        height       : 1.4px;
+        width        : 100%;
+        background   : #eee;
+        margin-bottom: 20px;
+    }
+
+    .media_sel {
+        >* {
+            height    : 39px;
+            width     : 100%;
+            border    : 1px solid #eee;
+            margin    : 10px 0;
+            text-align: center;
+            font      : 14px/39px '';
+            color     : #222;
+            cursor    : pointer;
+
+            &:hover {
+                background: orange;
+                color     : #fff;
+            }
+        }
+    }
+}
+
+.ant-popover-arrow {
+    display: none !important;
+
+}
